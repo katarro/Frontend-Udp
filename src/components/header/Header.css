@@ -1,0 +1,39 @@
+
+
+.navbar-custom .dropdown-menu .dropdown-item {
+  color: #212529 !important; /* Esto es para un color negro por defecto de Bootstrap */
+}
+
+
+.navbar {
+  background-color: #021c36;
+  width: 100vw;
+  height: 10vh;
+}
+.ms-auto {
+  margin-right: 50px !important;
+}
+
+.nav-link:hover {
+  color: #3399cc;
+}
+
+.container-inicio:hover {
+  background-color: #3399cc;
+}
+
+.menu-link {
+  font-size: 1.2rem; /* O el tamaño que prefieras */
+  color: white;
+}
+
+.logo {
+  background-image: url(./media/logo-4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 225px;
+  margin-left: 10px;
+}
+
+

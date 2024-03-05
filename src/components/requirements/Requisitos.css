@@ -1,0 +1,68 @@
+.container-main-requisitos{
+    width: 100vw;
+    height: 100vh;
+}
+.requisitos-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.requisitos-list-container {
+    width: 50%;
+    margin: 0 auto;
+}
+#requisitos-h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#requisitos-ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 100px;
+}
+
+#requisitos-li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.checkbox-container {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container label {
+    margin-left: 10px;
+}
+
+.requisitos-button{
+    margin: 0 auto;
+    width: 20vh;
+}
+.fecha-postulacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-as-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Importante para eliminar el subrayado de los enlaces */
+    text-align: center;
+}
+
+.link-as-button:hover {
+    background-color: #45a049;
+}

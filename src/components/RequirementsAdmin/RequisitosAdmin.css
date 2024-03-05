@@ -1,0 +1,88 @@
+/* Estilos para RequisitosAdmin */
+.requisitos-admin-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.requisitos-admin-title {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.requisitos-input-container {
+    margin-bottom: 20px;
+}
+
+.requisitos-input {
+    padding: 10px;
+    margin-right: 10px;
+    width: calc(100% - 120px); /* Resta el ancho del botón y el margen */
+    box-sizing: border-box; /* Incluye padding y border en el cálculo del ancho */
+    border: solid 1px #ccc;
+}
+
+.requisitos-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.requisitos-btn:hover {
+    background-color: #45a049;
+}
+
+.requisitos-list {
+    list-style: none;
+    padding: 0;
+}
+
+.requisitos-list-item {
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.requisitos-list-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.requisitos-list-btn:hover {
+    background-color: #d32f2f;
+}
+
+.boton-lista-postulantes {
+    margin-top: 20px;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.btn-postulantes {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-postulantes:hover {
+    background-color: #0056b3;
+}

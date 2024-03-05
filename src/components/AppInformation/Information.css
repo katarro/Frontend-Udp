@@ -1,0 +1,80 @@
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center; /* Centra el texto de los elementos internos */
+}
+
+
+
+.container-information {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Cambio para organizar los elementos en columna */
+    align-items: center;
+    justify-content: center; /* Asegura que todo esté centrado verticalmente */
+    background-color: #E6E6E6;
+}
+
+.title {
+    display: flex;
+}
+
+.title h1 {
+    margin-bottom: 10%;
+    text-align: center; /* Centra el texto del título */
+}
+
+
+.container-cards{
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; /* Permite que los elementos se ajusten verticalmente en pantallas pequeñas */
+}
+
+.icono {
+    font-size: 30px; /* Tamaño del icono */
+    margin-bottom: 10px; /* Espaciado después del icono */
+}
+
+.info-1, .info-2, .info-3 {
+    flex-basis: 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* Agrega un ligero sombreado para un efecto estético */
+    transition: transform .2s;
+    color: inherit;
+    text-decoration: none;
+}
+
+.info-1 h3, .info-2 h3, .info-3 h3 {
+    margin-bottom: 15px; /* Espaciado después del subtítulo */
+}
+
+.info-1 p, .info-2 p, .info-3 p {
+    text-align: justify; /* Justifica el texto para una mejor legibilidad */
+    text-align: center;
+}
+
+
+.title{
+    margin: 0 auto;
+}
+.information{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.info-1:hover, .info-2:hover,  .info-3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 600px) {
+    .info-1, .info-2, .info-3 {
+        flex-basis: 100%; /* Cada elemento ocupa toda la anchura del contenedor */
+    }
+}

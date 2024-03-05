@@ -1,0 +1,94 @@
+.home-container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  overflow: hidden; /* Oculta cualquier desbordamiento */
+  position: relative;
+}
+
+.image-container {
+  height: 100%;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%; /* O el ancho que prefieras */
+  height: 100%; /* Para mantener la proporción de la imagen */
+  object-fit: cover;
+  object-position: center;
+}
+.image-container h1 {
+  color: #F4F4F4;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 58px;
+  font-family: "Oswald-Regular", Arial, Helvetica, sans-serif;
+}
+.image-container p{
+    color: #F4F4F4;
+    font-size: 1.5rem;
+}
+.button-container{
+    width: fit-content;
+    display: flex;
+    margin: 0 auto;
+
+}
+.button-container .btn-primary{
+    width: 10vw;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 450px) {
+    h1{
+        font-size: 28px;
+    }
+}

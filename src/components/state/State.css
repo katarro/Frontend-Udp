@@ -1,0 +1,21 @@
+.container-state {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.state-container {
+  text-align: center;
+  max-width: 500px; /* Establece un ancho máximo para el contenedor */
+  margin: 0 auto; /* Centra el contenedor */
+  padding: 20px; /* Agrega un poco de espacio interno */
+  border-radius: 10px; /* Suaviza las esquinas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  background-color: #fff; /* Fondo blanco para que la sombra se vea mejor */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
