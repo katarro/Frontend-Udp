@@ -9,7 +9,7 @@ const cardData = [
   {
     to: "/requisitos",
     icon: foto1,
-    title: "Postulación de Ayudantias",
+    title: "Postulación de Ayudantías",
     content: "¿Eres bueno programando? ",
     content2: "¡Postula a la ayudantia que mejor domines!"
   },
@@ -17,7 +17,7 @@ const cardData = [
     to: "/login",
     icon: foto3,
     title: "Profesores",
-    content: "¿Quieres conocer quienes son tus ayudantes?"
+    content: "¿Quieres conocer quiénes son tus ayudantes?"
   },
   {
     to: "/estado",

@@ -7,6 +7,7 @@ export default function Toggle({ rutPostulante, postulante, onActualizarEstado, 
 
     const navigate = useNavigate();
     const asignatura = postulante.id_asignatura;
+    const id_postulante = postulante.id_postulante;
 
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [isLoadingAsignacion, setIsLoadingAsignacion] = useState(false);
@@ -23,6 +24,7 @@ export default function Toggle({ rutPostulante, postulante, onActualizarEstado, 
 
     useEffect(() => {
         cargarProfesores();
+        console.log("ID Asignatura: ", asignatura);
     }, []);
 
 
@@ -61,7 +63,7 @@ export default function Toggle({ rutPostulante, postulante, onActualizarEstado, 
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ profesorId, rutPostulante, asignatura, estado }),
+                body: JSON.stringify({ profesorId, rutPostulante, asignatura, estado, id_postulante }),
             });
             manejarCambio(estado, profesorId);
             actualizarDatosPostulante();
