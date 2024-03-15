@@ -90,7 +90,7 @@ export default function State() {
 
       <div className="container mx-auto px-5 sm:px-6 lg:px-8 min-h-screen mb-5 ">
         <div className="mt-5">
-          <h1 className='text-2xl sm:text-3xl text-center sm:text-left'><b>Estado de mi Postulación</b></h1>
+          <h1 className='text-2xl sm:text-3xl text-center sm:text-left'><b>Estado de Postulación</b></h1>
           <form onSubmit={handleSubmit} className="max-w-xl mx-auto">
             <div className="mb-3">
               <label htmlFor="rut" className="block text-sm font-medium text-gray-700">Ingresa tu RUT</label>
