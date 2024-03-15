@@ -18,7 +18,7 @@ export const useGenerarPdf = () => {
             const fileURL = URL.createObjectURL(file);
             const link = document.createElement('a');
             link.href = fileURL;
-            link.setAttribute('download', 'Seleccionados.pdf'); // cualquier nombre de archivo
+            link.setAttribute('download', 'Reporte.pdf'); // cualquier nombre de archivo
             document.body.appendChild(link);
             link.click();
         } catch (error) {
