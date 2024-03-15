@@ -17,7 +17,7 @@ export default function Home() {
         <div className="relative z-10 bg-black bg-opacity-50 h-screen w-full flex items-center justify-center">
             <div className="px-4 py-8 sm:px-6 md:px-8 lg:px-12 text-center -mt-20 mb-20">
               <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-                POSTULACIÓN DE AYUDANTÍAS
+                POSTULACIÓN PARA AYUDANTÍAS DE LA ESCUELA DE INFORMÁTICA
               </h1>
               <p className="mt-4 sm:mt-6 md:mt-8 text-xl sm:text-2xl md:text-3xl text-white">
                 ¿Deseas ser ayudante?
@@ -38,4 +38,3 @@ export default function Home() {
     </>
   );
 }
-
