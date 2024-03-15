@@ -23,10 +23,10 @@ export function CardDetail({ postulante, profesores, formatRut, carreras, format
             <div className="bg-white max-w-2xl mx-auto shadow overflow-hidden sm:rounded-lg my-8">
                 <div className="flex flex-col items-center justify-center px-4 py-5 sm:px-6">
                     <h3 className="text-lg leading-6 font-medium text-gray-900">
-                        Detalles del Ayudante
+                        Detalles del Estudiante
                     </h3>
                     <p className="mt-1 text-sm text-gray-500 text-center">
-                        Información Detallada del Ayudante.
+                        Información Detallada del Estudiante.
                     </p>
                 </div>
 
