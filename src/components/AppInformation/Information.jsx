@@ -9,9 +9,9 @@ const cardData = [
   {
     to: "/requisitos",
     icon: foto1,
-    title: "Postulación de Ayudantías",
+    title: "Postulación para Ayudantías",
     content: "¿Eres bueno programando? ",
-    content2: "¡Postula a la ayudantia que mejor domines!"
+    content2: "¡Postula a la ayudantía que mejor domines!"
   },
   {
     to: "/login",
@@ -22,9 +22,9 @@ const cardData = [
   {
     to: "/estado",
     icon: foto2,
-    title: "Estado de tu postulación",
+    title: "Estado de Postulación",
     content: "¿Quieres conocer el estado de tu proceso?",
-    content2: "¡Ingresa aqui!"
+    content2: "¡Ingresa aquí!"
   },
 
 ];
