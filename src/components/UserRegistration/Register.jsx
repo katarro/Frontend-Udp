@@ -138,7 +138,7 @@ export default function Register() {
 
             <InputField label="Correo UTEM" id="correo" name="correo" type="email" value={formData.correo} onChange={handleChange} />
             <SelectField label="Código de Carrera del Alumno" id="codigoCarrera" name="codigoCarrera" value={formData.codigoCarrera} onChange={handleChange} options={carreraOptions} />
-            <SelectField label="Asignatura a la que postula" id="asignatura" name="asignatura" value={formData.asignatura} onChange={handleChange} options={asignaturaOptions} />
+            <SelectField label="Asignatura a la Que Postula" id="asignatura" name="asignatura" value={formData.asignatura} onChange={handleChange} options={asignaturaOptions} />
 
             <button
               type="submit"
