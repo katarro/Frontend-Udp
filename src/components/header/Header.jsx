@@ -70,7 +70,7 @@ function Header() {
                 <Dropdown.Item as={Link} to="/admin/ayudantes">Ver Lista de Ayudantes</Dropdown.Item>
                 <Dropdown.Item as={Link} to="/admin/registrar-profesor">Registrar Profesor</Dropdown.Item>
                 <Dropdown.Item as={Link} to="/requisitos-admin">Requisitos</Dropdown.Item>
-                <Dropdown.Item onClick={generarPDF}>Generar PDF</Dropdown.Item>
+                <Dropdown.Item onClick={generarPDF}>Generar Archivo</Dropdown.Item>
 
               </Dropdown.Menu>
 
@@ -172,4 +172,3 @@ function Header() {
 }
 
 export default Header;
-
