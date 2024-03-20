@@ -1,0 +1,118 @@
+.-container {
+  width: 600px;
+  padding: 20px;
+  margin-bottom: 80px;
+
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+  margin: 0 auto; /* Asegura que el formulario esté centrado */
+  margin-bottom: 100px;
+}
+
+.-title {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.-label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.-input,
+.-select {
+  font-size: 15px;
+  padding: 8px 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #e0e0e0;
+  transition: border-color 0.3s ease;
+  color: #333;
+  font-weight: bold;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.-input:focus,
+.-select:focus {
+  border-color: #61dafb;
+}
+
+.-button {
+  background-color: #61dafb;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.-button:hover {
+  background-color: #21a1f1;
+}
+
+.-margin-bottom {
+  margin-bottom: 1rem;
+}
+
+.-number-input::-webkit-inner-spin-button,
+.-number-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.-number-input {
+  -moz-appearance: textfield;
+}
+
+/* Para Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* Remueve las flechas de WebKit */
+  margin: 0; /* Elimina el margen que tienen las flechas */
+}
+
+/* Para Firefox */
+input[type="number"] {
+  -moz-appearance: textfield; /* Remueve las flechas de Firefox */
+}
+
+/* Para Internet Explorer */
+input[type="number"]::-ms-clear,
+input[type="number"]::-ms-reveal {
+  display: none; /* Puede ayudar a eliminar algunos controles específicos de IE */
+}
+
+
+@media (max-width: 768px) {
+  .-container {
+    padding: 15px;
+    width: 400px;
+    margin-bottom: 80px;
+  }
+
+  .-input,
+  .-select,
+  .-button {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .-container {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 80px;
+  }
+
+  .-input,
+  .-select,
+  .-button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}

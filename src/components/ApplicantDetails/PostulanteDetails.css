@@ -1,0 +1,29 @@
+/* Añade tus estilos personalizados aquí */
+.container-card{
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  align-items: center
+}
+
+.card {
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.btn-danger:hover{
+  background-color: red !important;
+}
+
+.btn-success{
+  background-color: seagreen !important;
+}
+
+.btn-success:active{
+  background-color: green !important;
+}
+
+#observacion{
+  border: 1px solid #ced4da;
+}

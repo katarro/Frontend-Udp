@@ -1,0 +1,10 @@
+.container-register-profesor{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+form{
+    margin: 0 auto;
+}
