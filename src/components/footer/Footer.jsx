@@ -1,34 +1,27 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white w-full">
+    <footer className="bg-green-900 text-white w-full">
       <div className="mx-auto px-4 py-6 lg:py-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3 text-center md:text-left">
           
           {/* Columna UTEM */}
           <div>
             <h2 className="mb-6 text-sm font-semibold uppercase">
-              UTEM:
+              UNIVERSIDAD
             </h2>
             <ul>
+              
               <li className="mb-2">
-                <a href="http://www.utem.cl" target="_blank" rel="noopener" className="hover:underline">
-                  Universidad Tecnológica Metropolitana
-                </a>
+                <a href="https://admision.udp.cl/">Admisión</a>
               </li>
               <li className="mb-2">
-                <a href="https://acreditacion.utem.cl/" target="_blank" rel="noopener" className="hover:underline">
-                  Acreditación UTEM
-                </a>
+                <a href="https://vra.udp.cl/">Vicerrectoría Académica</a>
               </li>
               <li className="mb-2">
-                <a href="https://sige.utem.cl/" target="_blank" rel="noopener" className="hover:underline">
-                  SIGUE UTEM
-                </a>
+                <a href="https://estudiosgenerales.udp.cl/">Estudios Generales</a>
               </li>
               <li className="mb-4">
-                <a href="http://www.utemvirtual.cl/portal/" target="_blank" rel="noopener" className="hover:underline">
-                  UTEMVirtual
-                </a>
+                <a href="https://educacionenlinea.udp.cl/">Educación en Línea</a>
               </li>
               {/* ... otros ítems del menú ... */}
             </ul>
@@ -37,38 +30,20 @@ export default function Footer() {
           {/* Columna COMUNICACIONES */}
           <div>
             <h2 className="mb-6 text-sm font-semibold uppercase">
-              COMUNICACIONES:
+              INOFRMACIÓN
             </h2>
             <ul>
               <li className="mb-2">
-                <a href="https://www.utem.cl/comunicaciones/" className="hover:underline">
-                  Presentación
-                </a>
+                <a href="https://www.udp.cl/calendario-academico/">Calendario Académico</a>
               </li>
               <li className="mb-2">
-                <a href="http://noticias.utem.cl/" className="hover:underline">
-                  Noticias
-                </a>
+                <a href="https://www.udp.cl/noticias/">Noticias</a>
               </li>
               <li className="mb-2">
-                <a href="https://utem.tv/" className="hover:underline">
-                  Utem-Tv
-                </a>
+                <a href="https://www.udp.cl/agenda-udp/">Agenda</a>
               </li>
               <li className="mb-2">
-                <a href="https://www.utem.cl/comunicaciones/procedimiento-solicitudes/" className="hover:underline">
-                  Procedimiento Solicitudes
-                </a>
-              </li>
-              <li className="mb-2">
-                <a href="https://www.utem.cl/comunicaciones/solicitud-en-linea/" className="hover:underline">
-                  Solicitud en línea
-                </a>
-              </li>
-              <li className="mb-2">
-                <a href="https://www.utem.cl/comunicaciones/voceros-utem/" className="hover:underline">
-                  Voceros UTEM
-                </a>
+                <a href="https://debate.udp.cl/">Debate UDP</a>
               </li>
               {/* ... otros ítems del menú ... */}
             </ul>
@@ -77,28 +52,20 @@ export default function Footer() {
           {/* Columna SITIOS DE INTERÉS */}
           <div>
             <h2 className="mb-6 text-sm font-semibold uppercase">
-              SITIOS DE INTERÉS:
+              SERVICIOS
             </h2>
             <ul>
+
+              <li className="mb-2"><a href="https://www.udp.cl/docentes/concursos-academicos/">Concursos Académicos</a></li>
               <li className="mb-2">
-                <a href="http://uestatales.cl/cue/" target="_blank" rel="noopener" className="hover:underline">
-                  CUECH
-                </a>
+              <a href="https://agendaelectronica.udp.cl/">Agenda Electrónica</a>
+              </li>             
+
+              <li className="mb-2">
+                <a href="https://www.udp.cl/servicios/accesos-internos/">Accesos internos</a>
               </li>
               <li className="mb-2">
-                <a href="http://www.consejoderectores.cl/web/" target="_blank" rel="noopener" className="hover:underline">
-                  CRUCH
-                </a>
-              </li>
-              <li className="mb-2">
-                <a href="https://www.cnachile.cl/Paginas/Inicio.aspx" target="_blank" rel="noopener" className="hover:underline">
-                  GNA
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="http://www.gratuidad.cl/" target="_blank" rel="noopener" className="hover:underline">
-                  Gratuidad
-                </a>
+                <a href="https://www.udp.cl/acceso-proveedores/">Acceso proveedores</a>
               </li>
               {/* ... otros ítems del menú ... */}
             </ul>
@@ -110,11 +77,11 @@ export default function Footer() {
         <hr  />
         <div className="py-6 text-center ">
           <p>
-            Dieciocho 161 - Santiago, Chile. Metro Moneda - Fono: 2787 7500<br/>
-            Sitio diseñado y desarrollado por la Escuela de Ingenieria - UTEM<br/>
+          Av. Ejército 441, Santiago, Chile - Fono: 5622 676 2440<br/>
+            Sitio diseñado y desarrollado por la Facultad de Ingenieria y Ciencias - UDP<br/>
           </p>
           <p className="text-sm">
-            2024 © UTEM - Todos los derechos reservados
+            2024 © UDP - Todos los derechos reservados
           </p>
         </div>
       </div>

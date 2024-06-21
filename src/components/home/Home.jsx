@@ -12,7 +12,7 @@ export default function Home() {
     <>
 
       <div className="h-screen relative bg-white overflow-hidden">
-        <img className="absolute inset-0 h-full w-full object-cover" src={ImagenHome} alt="Descripción" />
+        <img className="absolute inset-0 h-full w-full object-cover" src={"https://ingenieriayciencias.udp.cl/cms/wp-content/uploads/2020/10/Ingenieria03-min-scaled.jpg"} alt="Descripción" />
 
         <div className="relative z-10 bg-black bg-opacity-50 h-screen w-full flex items-center justify-center">
             <div className="px-4 py-8 sm:px-6 md:px-8 lg:px-12 text-center -mt-20 mb-20">
@@ -24,9 +24,12 @@ export default function Home() {
               </p>
               <div className="mt-6 sm:mt-8 md:mt-10">
                 <Link to="/requisitos">
-                  <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                    Postular
-                  </button>
+                <button
+                  type="button"
+                  className="text-white bg-[#14532D] hover:bg-[#0f3e21] focus:outline-none focus:ring-4 focus:ring-[#196c3b] font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  >
+                  Postular
+                </button>
                 </Link>
               </div>
             </div>

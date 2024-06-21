@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.0499b64f.css",
-    "main.js": "/static/js/main.de5b18ce.js",
-    "static/js/787.a38931a2.chunk.js": "/static/js/787.a38931a2.chunk.js",
+    "main.css": "/static/css/main.bd03b026.css",
+    "main.js": "/static/js/main.1424ca0b.js",
+    "static/js/787.7a3c9285.chunk.js": "/static/js/787.7a3c9285.chunk.js",
     "static/media/home-foto.jpg": "/static/media/home-foto.4e4e244fcdf1aa4ea86c.jpg",
-    "static/media/logo utem.png": "/static/media/logo utem.fde1c4a3c564623b12d5.png",
+    "static/media/ilustration.png": "/static/media/ilustration.683be4409f1cd88fa1aa.png",
+    "static/media/foto2.jpg": "/static/media/foto2.fa7670fea932a70811a0.jpg",
+    "static/media/foto1.jpg": "/static/media/foto1.25f10419df6674cc15e4.jpg",
+    "static/media/foto3.jpg": "/static/media/foto3.23fed4501ba5cd4a3396.jpg",
+    "static/media/logo-4.png": "/static/media/logo-4.9b3c3fbdbc16890a70e8.png",
     "index.html": "/index.html",
-    "main.0499b64f.css.map": "/static/css/main.0499b64f.css.map",
-    "main.de5b18ce.js.map": "/static/js/main.de5b18ce.js.map",
-    "787.a38931a2.chunk.js.map": "/static/js/787.a38931a2.chunk.js.map"
+    "main.bd03b026.css.map": "/static/css/main.bd03b026.css.map",
+    "main.1424ca0b.js.map": "/static/js/main.1424ca0b.js.map",
+    "787.7a3c9285.chunk.js.map": "/static/js/787.7a3c9285.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0499b64f.css",
-    "static/js/main.de5b18ce.js"
+    "static/css/main.bd03b026.css",
+    "static/js/main.1424ca0b.js"
   ]
 }

@@ -1,12 +1,17 @@
 
 
+#button_postular{
+  color: #393939;
+}
+
 .navbar-custom .dropdown-menu .dropdown-item {
   color: #212529 !important; /* Esto es para un color negro por defecto de Bootstrap */
 }
 
 
 .navbar {
-  background-color: #021c36;
+  /*background-color: #021c36;*/
+  background-color: #14532D;
   width: 100vw;
   height: 10vh;
 }
@@ -28,7 +33,8 @@
 }
 
 .logo {
-  background-image: url(./media/logo-4.png);
+  /*background-image: url(./media/logo-4.png);*/
+  background-image: url(./media/logo_udp.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 60px;

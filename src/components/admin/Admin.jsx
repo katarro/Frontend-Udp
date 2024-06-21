@@ -105,7 +105,7 @@ export default function Administrador() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="block w-full p-2.5 text-sm text-gray-900 bg-gray-50 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
-                placeholder="nombre@utem.cl"
+                placeholder="nombre@udp.cl"
                 required
               />
             </div>
