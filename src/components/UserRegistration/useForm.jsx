@@ -69,10 +69,44 @@ export const useForm = (initialState = {}) => {
     let id_carrera;
     let id_asignatura;
 
+    if (formData.codigoCarrera === "21041 - Ingeniería Civil Industrial") id_carrera = 1;
+    if (formData.codigoCarrera === "21030 - Ingeniería Civil en Informática") id_carrera = 2;
+    if (formData.codigoCarrera === "21049 - Ingeniería Civil en Obras Civiles") id_carrera = 3;
+
+    if (formData.asignatura === "Bases de Datos") id_asignatura = 5;
+    if (formData.asignatura === "Lenguajes de Programación") id_asignatura = 4;
+    if (formData.asignatura === "Estructura de Datos") id_asignatura = 3;
+    if (formData.asignatura === "Algoritmos y Programación") id_asignatura = 2;
+    if (formData.asignatura === "Introducción a la Ingeniería") id_asignatura = 1;
+    if (formData.asignatura === "Sistemas de Información") id_asignatura = 6;
+    if (formData.asignatura === "Tìtulo 2") id_asignatura = 22;
+    if (formData.asignatura === "Álgebra y Geometría") id_asignatura = 23;
+    if (formData.asignatura === "Cálculo I") id_asignatura = 24;
+    if (formData.asignatura === "Química") id_asignatura = 25;
+    if (formData.asignatura === "Comunicación para la Ingeniería") id_asignatura = 26;
+    if (formData.asignatura === "Programación") id_asignatura = 27;
+    if (formData.asignatura === "Álgebra Lineal") id_asignatura = 28;
+    if (formData.asignatura === "Cálculo II") id_asignatura = 29;
+    if (formData.asignatura === "Mecánica") id_asignatura = 30;
+    if (formData.asignatura === "Programación Avanzada") id_asignatura = 31;
+    if (formData.asignatura === "Ecuaciones Diferenciales") id_asignatura = 32;
+    if (formData.asignatura === "Cálculo III") id_asignatura = 33;
+    if (formData.asignatura === "Calor y Ondas") id_asignatura = 34;
+    if (formData.asignatura === "Estructuras de datos y algoritmos") id_asignatura = 35;
+    if (formData.asignatura === "Redes de Datos") id_asignatura = 36;
+    if (formData.asignatura === "Electricidad y Magnetismo") id_asignatura = 37;
+    if (formData.asignatura === "Inglés I") id_asignatura = 38;
+    if (formData.asignatura === "Electrónica y Electrotecnia") id_asignatura = 39;
+    if (formData.asignatura === "Bases de Datos") id_asignatura = 40;
+
+
+    /*
     if (formData.codigoCarrera === "21030 - Ingeniería en Informática") id_carrera = 2;
     if (formData.codigoCarrera === "21049 - Ingeniería Civil en Ciencias de Datos") id_carrera = 3;
     if (formData.codigoCarrera === "21041 - Ingeniería Civil en Computación mención Informática") id_carrera = 1;
+    */
 
+    /*
     if (formData.asignatura === "Introducción a la Ingeniería") id_asignatura = 1;
     if (formData.asignatura === "Algoritmos y Programación") id_asignatura = 2;
     if (formData.asignatura === "Estructura de Datos") id_asignatura = 3;
@@ -80,6 +114,7 @@ export const useForm = (initialState = {}) => {
     if (formData.asignatura === "Lenguajes de Programación") id_asignatura = 4;
     if (formData.asignatura === "Bases de Datos") id_asignatura = 5;
     if (formData.asignatura === "Sistemas de Información") id_asignatura = 6;
+    */
 
     try {
       const datosFormulario = {
@@ -165,7 +200,7 @@ export const useForm = (initialState = {}) => {
 
 
   const validarCorreo = (correo) => {
-    const regex = /^[^\s@]+@utem\.cl$/;
+    const regex = /^[^\s@]+@mail\.udp\.cl$/;
     return regex.test(correo);
   };
 

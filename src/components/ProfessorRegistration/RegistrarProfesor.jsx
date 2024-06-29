@@ -8,6 +8,7 @@ export default function RegistrarProfesor() {
     const initialState = {
         nombre: '',
         correo: '',
+        rut:''
     };
     const [formData, setFormData] = useState(initialState);
     const [isLoading, setIsLoading] = useState(false);
@@ -19,12 +20,12 @@ export default function RegistrarProfesor() {
             return false;
         }
 
-        const regexCorreoUtem = /@utem\.cl$/i;
+        // const regexCorreoUtem = /@mail\.udp\.cl$/i;
 
-        if (!regexCorreoUtem.test(formData.correo)) {
-            alert('El correo debe ser @utem.cl');
-            return false;
-        }
+        // if (!regexCorreoUtem.test(formData.correo)) {
+        //     alert('El correo debe ser @mail.udp.cl');
+        //     return false;
+        // }
         return true;
     };
 
@@ -82,7 +83,10 @@ export default function RegistrarProfesor() {
 
                         <InputField label="Nombre Completo" id="nombre" name="nombre" value={formData.nombre} onChange={handleChange} />
 
-                        <InputField label="Correo UTEM" id="correo" name="correo" value={formData.correo} onChange={handleChange} />
+                        <InputField label="Correo UDP" id="correo" name="correo" value={formData.correo} onChange={handleChange} />
+
+                        <InputField label="Rut" id="correo" name="rut" value={formData.rut} onChange={handleChange} />
+
 
 
                         <div className='mt-6 pt-4 flex justify-end items-end'>
