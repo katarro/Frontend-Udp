@@ -57,7 +57,7 @@ export default function AdminIn() {
                     <Spinner />
                   </div>
                 ) : (
-                  <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                  <table className="w-full text-sm text-left rtl:text-right text-gray-900 dark:text-gray-900">
                     <HeadTable />
 
                     <tbody>
