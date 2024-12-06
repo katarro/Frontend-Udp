@@ -10,24 +10,24 @@ const fechaFin = new Date('2024-12-31');
 
 export default function Requisitos() {
 
-    const [periodo, setPeriodo] = useState([]);
+    const [periodo, setPeriodo] = useState([{}]);
     const [habilitarPostulacion, setHabilitarPostulacion] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
 
-      
+
 
         const cargarPeriodo = async () => {
             try {
                 const response = await fetch(`${API}/api/adminin/periodo`);
                 const data = await response.json();
 
-                setPeriodo(data);
+                setPeriodo(Array.isArray(data) ? data : []);
 
 
 
             } catch (error) {
-                console.error("Hubo un error al obtener los requisitos", error);
+                throw new Error(`Hubo un error al obtener los requisitos ${error}`)
             } finally {
                 setIsLoading(false);
             }
